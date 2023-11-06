@@ -193,7 +193,7 @@ include('layout/header.php');
                                 </section>
                             </section>
                             <!-- FIM DA CAIXA DE TEXTO CURIOSIDADE -->
-
+                            <a id="item1"></a>
                             <!-- subtopico -->
                             <h3 class="Subtopico fw-bolder">Características da Redação Oficial</h3>
                             <!-- subtopico -->
@@ -368,7 +368,13 @@ include('layout/header.php');
             </div>
         </section>
     </div>
-
+    <!-- BUTTON BACK TO TOP (JAMILLE) -->
+    <div id="back_to_top">
+        <div id="btn_back">
+            <i id="icon_up" class="fa-solid fa-arrow-up"></i>
+        </div>
+    </div>
+    
     <!-- COMEÇO DO FOOTER  -->
     <?php
     include('layout/footer.php');

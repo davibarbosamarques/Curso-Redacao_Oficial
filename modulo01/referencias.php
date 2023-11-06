@@ -94,7 +94,13 @@ include('layout/header.php');
             </div>
         </section>
     </div>
-
+    <!-- BUTTON BACK TO TOP (JAMILLE) -->
+    <div id="back_to_top">
+        <div id="btn_back">
+            <i id="icon_up" class="fa-solid fa-arrow-up"></i>
+        </div>
+    </div>
+    
     <!-- COMEÇO DO FOOTER  -->
     <?php
     include('layout/footer.php');

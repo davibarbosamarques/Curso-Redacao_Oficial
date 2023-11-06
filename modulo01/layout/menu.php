@@ -35,7 +35,7 @@
         <div class="dropdown-container">
             <a href="topico02.php">
                 <i class="bi bi-journals circulo"></i>Início</a>
-            <a href="#item2.1">
+            <a href="#item1">
                 <i class="bi bi-journals circulo"></i>2.1 Características da Redação Oficial</a>
         </div>
 

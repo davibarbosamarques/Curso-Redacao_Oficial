@@ -76,6 +76,7 @@ include('layout/header.php');
 
         <div id="progress-bar"></div>
     </div>
+    
 <?php
 include('layout/footer.php');
 ?>
