@@ -64,107 +64,109 @@ include('layout/header.php');
                             <!-- FIM DA CAIXA EXEMPLO-->
                             <p class="scrool">Apresentamos, no Quadro 1, as formas de tratamento e de endereçamento prescritas pelo Manual de Redação da Câmara dos Deputados (BRASIL, 2004):</p>
 
-                        <!-- tabela modelo -->
-                        <table class="table">
-                            <thead>
-                                <tr class="Thteste">
-                                    <th scope="col">Autoridade</th>
-                                    <th scope="col">Endereçamento</th>
-                                    <th scope="col">Vocativo</th>
-                                    <th scope="col">Tratamento no corpo do texto</th>
-                                    <th scope="col">Abreviatura</th>
-                                </tr>
-                                </tr>
-                            </thead>
-                            <tbody class="Tdborda">
-                                <tr>
-                                    <td>Presidente da República</td>
-                                    <td>A Sua Excelência o Senhor</td>
-                                    <td>Excelentíssimo Senhor Presidente da República</td>
-                                    <td>Vossa Excelência</td>
-                                    <td>Não se usa</td>
-                                </tr>
-                                <tr>
-                                    <td>Presidente do Congresso Nacional</td>
-                                    <td>A Sua Excelência o Senhor</td>
-                                    <td>Excelentíssimo Senhor Presidente do Congresso Nacional,</td>
-                                    <td>Vossa Excelência</td>
-                                    <td>Não se usa</td>
-                                </tr>
-                                <tr>
-                                    <td>Presidente do Supremo Tribunal Federal</td>
-                                    <td>A Sua Excelência o Senhor</td>
-                                    <td>Excelentíssimo Senhor Presidente do Supremo Tribunal Federal,</td>
-                                    <td>Vossa Excelência</td>
-                                    <td>Não se usa</td>
-                                </tr>
-                                <tr>
-                                    <td>Vice-Presidente da República</td>
-                                    <td>A Sua Excelência o Senhor</td>
-                                    <td>Senhor Vice-Presidente da República,</td>
-                                    <td>Vossa Excelência</td>
-                                    <td>V. Exa.</td>
-                                </tr>
-                                <tr>
-                                    <td>Ministro de Estado</td>
-                                    <td>A Sua Excelência o Senhor</td>
-                                    <td>Senhor Ministro,</td>
-                                    <td>Vossa Excelência</td>
-                                    <td>V. Exa.</td>
-                                </tr>
-                                <tr>
-                                    <td>Embaixador</td>
-                                    <td>A Sua Excelência o Senhor</td>
-                                    <td>Senhor Embaixador,</td>
-                                    <td>Vossa Excelência</td>
-                                    <td>V. Exa</td>
-                                </tr>
-                                <tr>
-                                    <td>Oficial-General das Forças Armadas</td>
-                                    <td>A Sua Excelência o Senhor</td>
-                                    <td>Senhor + Posto,</td>
-                                    <td>Vossa Excelência</td>
-                                    <td>V. Exa</td>
-                                </tr>
-                                <tr>
-                                    <td>Outros postos militares</td>
-                                    <td>Ao Senhor</td>
-                                    <td>Senhor + Posto,</td>
-                                    <td>Vossa Excelência</td>
-                                    <td>V. Exa</td>
-                                </tr>
-                                <tr>
-                                    <td>Senador da República</td>
-                                    <td>A Sua Excelência o Senhor</td>
-                                    <td>Senhor Senador,</td>
-                                    <td>Vossa Excelência</td>
-                                    <td>V. Exa</td>
-                                </tr>
-                                <tr>
-                                    <td>Deputado Federal</td>
-                                    <td>A Sua Excelência o Senhor</td>
-                                    <td>Senhor Deputado,</td>
-                                    <td>Vossa Excelência</td>
-                                    <td>V. Exa</td>
-                                </tr>
-                                <tr>
-                                    <td>Ministro do Tribunal de Contas da União</td>
-                                    <td>A Sua Excelência o Senhor</td>
-                                    <td>Senhor Ministro do Tribunal de Contas da União,</td>
-                                    <td>Vossa Excelência</td>
-                                    <td>V. Exa</td>
-                                </tr>
-                                <tr>
-                                    <td>Ministro dos Tribunais Superiores</td>
-                                    <td>A Sua Excelência o Senhor</td>
-                                    <td>Senhor Ministro,</td>
-                                    <td>Vossa Excelência</td>
-                                    <td>V. Exa</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        </div>
-                        <!-- Fim Tabela Modelo -->
+                            <!-- TABELA-->
+
+                            <table class="table table-striped">
+                                            <thead>
+                                                <tr class="Thteste">
+                                                    <th scope="col">Autoridade</th>
+                                                    <th scope="col">Endereçamento</th>
+                                                    <th scope="col">Vocativo</th>
+                                                    <th scope="col">Tratamento no corpo do texto</th>
+                                                    <th scope="col">Abreviatura</th>
+                                                </tr>
+                                            </thead>
+
+                                            <tbody class="tBody">
+                                                <tr>
+                                                    <td data-th="Autoridade">Presidente da República</td>
+                                                    <td data-th="Endereçamento">A Sua Excelência o Senhor</td>
+                                                    <td data-th="Vocativo">Excelentíssimo Senhor Presidente da República</td>
+                                                    <td data-th="Tratamento no corpo do texto">Vossa Excelência</td>
+                                                    <td data-th="Abreviatura">Não se usa</td>
+                                                </tr>
+                                                <tr>
+                                                    <td data-th="Autoridade">Presidente do Congresso Nacional</td>
+                                                    <td data-th="Endereçamento">A Sua Excelência o Senhor</td>
+                                                    <td data-th="Vocativo">Excelentíssimo Senhor Presidente do Congresso Nacional</td>
+                                                    <td data-th="Tratamento no corpo do texto">Vossa Excelência</td>
+                                                    <td data-th="Abreviatura">Não se usa</td>
+                                                </tr>
+                                                <tr>
+                                                    <td data-th="Autoridade">Presidente do Supremo Tribunal Federal</td>
+                                                    <td data-th="Endereçamento">A Sua Excelência o Senhor</td>
+                                                    <td data-th="Vocativo">Excelentíssimo Senhor Presidente do Supremo Tribunal Federal,</td>
+                                                    <td data-th="Tratamento no corpo do texto">Vossa Excelência</td>
+                                                    <td data-th="Abreviatura">Não se usa</td>
+                                                </tr>
+                                                <tr>
+                                                    <td data-th="Autoridade">Vice-Presidente da República</td>
+                                                    <td data-th="Endereçamento">A Sua Excelência o Senhor</td>
+                                                    <td data-th="Vocativo">Senhor Vice-Presidente da República,</td>
+                                                    <td data-th="Tratamento no corpo do texto">Vossa Excelência</td>
+                                                    <td data-th="Abreviatura">V. Exa.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td data-th="Autoridade">Ministro de Estado</td>
+                                                    <td data-th="Endereçamento">A Sua Excelência o Senhor</td>
+                                                    <td data-th="Vocativo">Senhor Ministro,</td>
+                                                    <td data-th="Tratamento no corpo do texto">Vossa Excelência</td>
+                                                    <td data-th="Abreviatura">V. Exa.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td data-th="Autoridade">Embaixador</td>
+                                                    <td data-th="Endereçamento">A Sua Excelência o Senhor</td>
+                                                    <td data-th="Vocativo">Senhor Embaixador,</td>
+                                                    <td data-th="Tratamento no corpo do texto">Vossa Excelência</td>
+                                                    <td data-th="Abreviatura">V. Exa</td>
+                                                </tr>
+                                                <tr>
+                                                    <td data-th="Autoridade">Oficial-General das Forças Armadas</td>
+                                                    <td data-th="Endereçamento">A Sua Excelência o Senhor</td>
+                                                    <td data-th="Vocativo">Senhor + Posto,</td>
+                                                    <td data-th="Tratamento no corpo do texto">Vossa Excelência</td>
+                                                    <td data-th="Abreviatura">V. Exa</td>
+                                                </tr>
+                                                <tr>
+                                                    <td data-th="Autoridade">Outros postos militares</td>
+                                                    <td data-th="Endereçamento">Ao Senhor</td>
+                                                    <td data-th="Vocativo">Senhor + Posto,</td>
+                                                    <td data-th="Tratamento no corpo do texto">Vossa Excelência</td>
+                                                    <td data-th="Abreviatura">V. Exa</td>
+                                                </tr>
+                                                <tr>
+                                                    <td data-th="Autoridade">Senador da República</td>
+                                                    <td data-th="Endereçamento">A Sua Excelência o Senhor</td>
+                                                    <td data-th="Vocativo">Senhor Senador,</td>
+                                                    <td data-th="Tratamento no corpo do texto">Vossa Excelência</td>
+                                                    <td data-th="Abreviatura">V. Exa</td>
+                                                </tr>
+                                                <tr>
+                                                    <td data-th="Autoridade">Deputado Federal</td>
+                                                    <td data-th="Endereçamento">A Sua Excelência o Senhor</td>
+                                                    <td data-th="Vocativo">Senhor Deputado,</td>
+                                                    <td data-th="Tratamento no corpo do texto">Vossa Excelência</td>
+                                                    <td data-th="Abreviatura">V. Exa</td>
+                                                </tr>
+                                                <tr>
+                                                    <td data-th="Autoridade">Ministro do Tribunal de Contas da União</td>
+                                                    <td data-th="Endereçamento">A Sua Excelência o Senhor</td>
+                                                    <td data-th="Vocativo">Senhor Ministro do Tribunal de Contas da União,</td>
+                                                    <td data-th="Tratamento no corpo do texto">Vossa Excelência</td>
+                                                    <td data-th="Abreviatura">V. Exa</td>
+                                                </tr>
+                                                <tr>
+                                                    <td data-th="Autoridade">Ministro dos Tribunais Superiores</td>
+                                                    <td data-th="Endereçamento">A Sua Excelência o Senhor</td>
+                                                    <td data-th="Vocativo">Senhor Ministro,</td>
+                                                    <td data-th="Tratamento no corpo do texto">Vossa Excelência</td>
+                                                    <td data-th="Abreviatura">V. Exa</td>
+                                                </tr>
+                                                
+                                            </tbody>
+                                        </table>
+                            <!-- FIM DA TABELA-->
+
                         <p id="FonteFigura"><strong>Quadro 1: </strong> Formas de tratamento <br /> <strong>Fonte:</strong> Adaptado de Brasil (2019, p. 05)</p>
 
                         <p>O emprego dos pronomes de tratamento requer alguns cuidados (FLÔRES, 2002, p. 16-17):</p>

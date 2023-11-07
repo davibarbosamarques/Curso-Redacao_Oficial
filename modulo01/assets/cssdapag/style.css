@@ -106,3 +106,32 @@ table{
     font-size: 0.7em;
     padding-top: 0.2em;
 }
+
+/* tabela julia */
+/* ESTILIZAÇÃO DA TABLE TH */
+th{
+    font-weight: lighter;
+}
+
+
+@media (max-width: 767px) {
+    thead{
+        display: none;
+    } 
+
+     td{
+        text-align: start;
+        display: block !important;
+        gap: .5rem;
+    }
+
+    td::before{
+        content: attr(data-th) ": ";
+        font-weight: bold;
+    }
+
+    iframe{
+        width: 100%;
+    }
+    
+}
