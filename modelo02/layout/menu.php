@@ -66,7 +66,7 @@
             <a href="topico03.php">
                 <i class="bi bi-journals circulo"></i>Início</a>
             <a href="#item1">
-                <i class="bi bi-journals circulo"></i>2.1 Características da Redação Oficial</a>
+                <i class="bi bi-journals circulo"></i>3.2 Ata</a>
         </div>
                 <!-- topico com Subtópico -->
         <button class="dropdown-btn">
@@ -83,7 +83,9 @@
             <a href="topico04.php">
                 <i class="bi bi-journals circulo"></i>Início</a>
             <a href="#item1">
-                <i class="bi bi-journals circulo"></i>2.1 Características da Redação Oficial</a>
+                <i class="bi bi-journals circulo"></i>4.2 Declaração</a>
+            <a href="#item1">
+                <i class="bi bi-journals circulo"></i>4.3 Certidão</a>
         </div>
 
         <li class="menu">
