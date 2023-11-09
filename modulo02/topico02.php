@@ -282,17 +282,210 @@ include('layout/header.php');
                             <!-- fim do subsubtopico  -->
 
                             <p class="scrool">Diferentemente do vocativo em ofícios, na carta podem ser utilizados os vocativos “Prezado(s)”, “Estimado(s)”, “Caro(s)”, seguidos do tratamento “Senhor”, “Senhora”, do nome do receptor ou do cargo. Após o vocativo, usa-se vírgula. Um cuidado a ser tomado é aplicar a concordância em gênero e número, como nos exemplos do Quadro 3.</p>
+
+                            <!-- IMAGEM NO SITE  -->
+
+                            <div class="text-center img-01">
+                                <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Quadro 3</strong></p>
+                                <div class="zoom">
+                                <a href="..." data-bs-toggle="modal" data-bs-target="#Quadro3">
+                                    <img src="imgs/topico02/Quadro03.png" alt="Imagem que remete a organização" id="img-1">
+                                </a>
+                                </div>
+                                <p class="FonteFigura FonteMenor text-secondary"></p>
+                            </div>
+
+                            <!-- Imagem - MODAL-->
+                            <div class="modal fade text-center" id="Quadro3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                <div class="modal-content w-75">
+                                    <img class="img-fluid" src="imgs/topico02/Quadro03.png" alt="Alt da imagem fica aqui">
+                                </div>
+                                <div class="modal-footer w-75 bg-light justify-content-center">
+                                    <p class="text-secondary"><strong>Quadro 3:</strong> Exemplo de vocativo em cartas</p>
+                                </div>
+                                </div>
+                            </div>
+                            <!-- Imagem - End-->
+
                             <!-- Subsubtopico  -->
                             <h4 class="subsubtopico fw-bolder">Texto</h4>                     
                             <!-- fim do subsubtopico  -->
+
+                            <p class="scrool">Se o padrão adotado é o “blocado”, todas as partes da carta são alinhadas à esquerda e a separação dos parágrafos é feita por, no mínimo, uma linha em branco.</p>
+
+                            <p class="scrool">A redação do texto da carta deve ser simples, clara, objetiva e concisa. Além disso, em ambos os padrões, todo o texto deve receber alinhamento justificado no processador de textos.</p>
 
                             <!-- Subsubtopico  -->
                             <h4 class="subsubtopico fw-bolder">Nome e Cargo/Função do Signatário</h4>                     
                             <!-- fim do subsubtopico  -->
 
+                            <p class="scrool">O cargo ou a função são mencionados na linha abaixo da que traz grafado o nome.</p>
+
+                            <p class="scrool">Não se coloca o traço ou a linha para a assinatura; nem título ou profissão à esquerda do nome de quem assina a carta.</p>
+
+                            <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
+                            <section class="container">
+                                <div class="accordion ">
+                                <section id="content">
+                                    <div class="caixaprincipal" id="titulofiqueatento">
+                                    <div class="div_teste">
+                                        <div><i class="fa-solid fa-person-circle-exclamation"></i> FIQUE ATENTO </div>
+                                        <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                                    </div>
+                                    </div> <!--caixa Principal-->
+                                    <div class="accordion-content" id="fiqueatento"><!--caixa secundaria-->
+                                    <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong></p>
+                                    <p class="txt-caixasecundaria">Por motivos de segurança, toda assinatura deve ser seguida do nome impresso, por extenso, da pessoa que assinou.</p>
+                                    </div>
+                                </section>
+                            </section>
+                            <!-- FIM DA CAIXA FIQUE ATENTO -->
+
+
                             <!-- Subsubtopico  -->
                             <h4 class="subsubtopico fw-bolder">Anexos</h4>                     
                             <!-- fim do subsubtopico  -->
+
+                            <p class="scrool">Se a carta for acompanhada de anexos, é feita a indicação da quantidade desses complementos ou dos nomes dos papéis anexos na parte inferior da carta, após o nome e o cargo de quem assina.</p>
+
+                            <!-- IMAGEM NO SITE  -->
+
+                            <div class="text-center img-01">
+                                <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Quadro 4</strong></p>
+                                <div class="zoom">
+                                <a href="..." data-bs-toggle="modal" data-bs-target="#Quadro4">
+                                    <img src="imgs/topico02/Quadro04.png" alt="Imagem que remete a organização" id="img-1">
+                                </a>
+                                </div>
+                                <p class="FonteFigura FonteMenor text-secondary"></p>
+                            </div>
+
+                            <!-- Imagem - MODAL-->
+                            <div class="modal fade text-center" id="Quadro4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                <div class="modal-content w-75">
+                                    <img class="img-fluid" src="imgs/topico02/Quadro04.png" alt="Alt da imagem fica aqui">
+                                </div>
+                                <div class="modal-footer w-75 bg-light justify-content-center">
+                                    <p class="text-secondary"><strong>Quadro 4:</strong> Exemplo de vocativo em cartas</p>
+                                </div>
+                                </div>
+                            </div>
+                            <!-- Imagem - End-->
+
+                            <a id="item1"></a>
+
+                            <!-- subtopico -->
+                            <h3 class="Subtopico fw-bolder">Modelo de Carta</h3>
+                            <!-- subtopico -->
+
+                            <p class="scrool">Há duas possibilidades de organização do texto da carta: o modelo denteado e o modelo em bloco. O primeiro é visto por algumas instituições como um modelo em desuso. Na verdade, o que se verifica é uma forte influência dos modelos norte-americanos de cartas, elaborados em blocos, cabendo a cada instituição determinar aquele modelo que melhor traduza sua cultura e valores. Note, a seguir, as diferenças entre os dois modelos.</p>
+
+                            <!-- IMAGEM NO SITE  -->
+
+                            <div class="text-center img-01">
+                                <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 06</strong></p>
+                                <div class="zoom">
+                                <a href="..." data-bs-toggle="modal" data-bs-target="#Figura06">
+                                    <img src="imgs/topico02/Figura06.png" alt="Imagem que remete a organização" id="img-1">
+                                </a>
+                                </div>
+                                <p class="FonteFigura FonteMenor text-secondary"></p>
+                            </div>
+
+                            <!-- Imagem - MODAL-->
+                            <div class="modal fade text-center" id="Figura06" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                <div class="modal-content w-75">
+                                    <img class="img-fluid" src="imgs/topico02/Figura06.png" alt="Alt da imagem fica aqui">
+                                </div>
+                                <div class="modal-footer w-75 bg-light justify-content-center">
+                                    <p class="text-secondary"><strong>Figura 06</strong></p>
+                                </div>
+                                </div>
+                            </div>
+                            <!-- Imagem - End-->
+
+                            <p class="scrool">A principal diferença entre os dois modelos diz respeito ao adentramento de parágrafos. <strong>Na carta escrita conforme a padronização blocada, todos os elementos são alinhados à esquerda, desde o número da carta até a assinatura.</strong> A carta denteada é elaborada de acordo com o “Padrão Ofício”, com a diferença de que pode não ter numeração de parágrafos e endereçamento do destinatário.</p>
+
+                            <p class="scrool">O modelo que segue (figura 6) ilustra a organização de um bloco.</p>
+
+                            <!-- IMAGEM NO SITE  -->
+
+                            <div class="text-center img-01">
+                                <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 07</strong></p>
+                                <div class="zoom">
+                                <a href="..." data-bs-toggle="modal" data-bs-target="#Figura07">
+                                    <img src="imgs/topico02/Figura07.png" alt="Imagem que remete a organização" id="img-1">
+                                </a>
+                                </div>
+                                <p class="FonteFigura FonteMenor text-secondary"></p>
+                            </div>
+
+                            <!-- Imagem - MODAL-->
+                            <div class="modal fade text-center" id="Figura07" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                <div class="modal-content w-75">
+                                    <img class="img-fluid" src="imgs/topico02/Figura07.png" alt="Alt da imagem fica aqui">
+                                </div>
+                                <div class="modal-footer w-75 bg-light justify-content-center">
+                                    <p class="text-secondary"><strong>Figura 07</strong></p>
+                                </div>
+                                </div>
+                            </div>
+                            <!-- Imagem - End-->
+
+                            <!-- Subsubtopico  -->
+                            <h4 class="subsubtopico fw-bolder">Carta Circular</h4>
+                            <!-- fim do subsubtopico  -->
+
+                            <p class="scrool">Note que a carta da figura 6 poderia ser transformada facilmente em uma carta circular, uma comunicação reproduzida em muitos exemplares e dirigida a várias pessoas ou aos diversos setores de uma empresa, uma vez que o assunto dessa carta é geral: a modernização dos serviços prestados pelos Correios.</p>
+                        
+                            <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
+                            <section class="container">
+                                <div class="accordion ">
+                                <section id="content">
+                                    <div class="caixaprincipal" id="titulofiqueatento">
+                                    <div class="div_teste">
+                                        <div><i class="fa-solid fa-person-circle-exclamation"></i> FIQUE ATENTO </div>
+                                        <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                                    </div>
+                                    </div> <!--caixa Principal-->
+                                    <div class="accordion-content" id="fiqueatento"><!--caixa secundaria-->
+                                    <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong></p>
+                                    <p class="txt-caixasecundaria">Evidentemente, nos casos em que o conteúdo ou o assunto da carta for especifico, não é possível transformá-lo em carta circular.</p>
+                                    </div>
+                                </section>
+                            </section>
+                            <!-- FIM DA CAIXA FIQUE ATENTO -->
+
+                            <p class="scrool">Para transformar a carta ou o ofício em circular, basta retirar do exemplo mostrado as informações específicas de endereçamento, como mostra a figura 07:</p>
+
+                            <!-- IMAGEM NO SITE  -->
+
+                            <div class="text-center img-01">
+                                <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 08</strong></p>
+                                <div class="zoom">
+                                <a href="..." data-bs-toggle="modal" data-bs-target="#Figura08">
+                                    <img src="imgs/topico02/Figura08.png" alt="Imagem que remete a organização" id="img-1">
+                                </a>
+                                </div>
+                                <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> Elaborado por Ferreira; Cambrussi (2015)</p>
+                            </div>
+
+                            <!-- Imagem - MODAL-->
+                            <div class="modal fade text-center" id="Figura08" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                <div class="modal-content w-75">
+                                    <img class="img-fluid" src="imgs/topico02/Figura08.png" alt="Alt da imagem fica aqui">
+                                </div>
+                                <div class="modal-footer w-75 bg-light justify-content-center">
+                                    <p class="text-secondary"><strong>Figura 08:</strong> Exemplo de carta circular</p>
+                                </div>
+                                </div>
+                            </div>
+                            <!-- Imagem - End-->
                             <!-- Botões de navegação -->
                             <div class="text-center">
                                 <a href="topico01.php" class="btn btn-outline-success" role="button"
