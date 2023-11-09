@@ -813,18 +813,52 @@ include('layout/header.php');
                         </table>
                         <!-- Fim Tabela Modelo -->
                         
+                        <p id="FonteFigura"><strong>Quadro 1: </strong> Formas de tratamento <br /> <strong>Fonte:</strong> Adaptado de Brasil (2019, p. 05)</p>
+
+                        <p class="scrool">Compare o modelo de ofício (Figura 3), com o modelo de memorando mostrado a seguir, observando as diferenças e, principalmente, as semelhanças entre essas correspondências oficiais.</p>
+
+                        <p class="scrool">Vale ressaltar que em muitas instituições o correio eletrônico substitui amplamente o memorando impresso. Você verá como redigir adequadamente uma mensagem eletrônica mais adiante.</p>
+
+                        <p class="scrool"><strong>Modelo de memorando oficial:</strong></p>
+
+                        <!-- IMAGEM NO SITE  -->
+
+                        <div class="text-center img-01">
+                            <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 4</strong></p>
+                            <div class="zoom">
+                            <a href="..." data-bs-toggle="modal" data-bs-target="#Imagem4">
+                                <img src="imgs/topico01/Figura04.png" alt="Imagem que remete a organização" id="img-1">
+                            </a>
+                            </div>
+                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> Adaptado de Brasil (2002, p. 19)</p>
+                        </div>
+
+                        <!-- Imagem - MODAL-->
+                        <div class="modal fade text-center" id="Imagem4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                            <div class="modal-content w-75">
+                                <img class="img-fluid" src="imgs/topico01/Figura04.png" alt="Alt da imagem fica aqui">
+                            </div>
+                            <div class="modal-footer w-75 bg-light justify-content-center">
+                                <p class="text-secondary"><strong>Fonte:</strong> Adaptado de Brasil (2002, p. 19)</p>
+                            </div>
+                            </div>
+                        </div>
+                        <!-- Imagem - End-->
+
+                        <!-- Botões de navegação -->
+                        <div class="text-center">
+                            <a href="index.php" class="btn btn-outline-success" role="button" aria-pressed="true"> <i
+                                    class="fa-solid fa-chevron-left"></i> Voltar </a>
+                            <a href="topico02.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
+                                    class="fa-solid fa-chevron-right"></i></a>
+                        </div>
                     </div>
 
                 </div>
 
         </section>
-        <!-- Botões de navegação -->
-        <div class="text-center">
-            <a href="index.php" class="btn btn-outline-success" role="button" aria-pressed="true"> <i
-                    class="fa-solid fa-chevron-left"></i> Voltar </a>
-            <a href="topico02.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
-                    class="fa-solid fa-chevron-right"></i></a>
-        </div>
+ 
 
         <!-- barra de progresso embaixo -->
         <div id="progress-bar"></div>

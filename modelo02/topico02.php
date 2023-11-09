@@ -30,329 +30,269 @@ include('layout/header.php');
 
                             <!-- COMEÇO REFERÊNCIAS  -->
 
-                            <h2 class="Titulo">A Redação Oficial</h2>
+                            <h2 class="Titulo">Comunicação Oficial II</h2>
                             <br>
 
-                            <p><strong>Objetivo:</strong> Conceituar e caracterizar a redação oficial.</p>
+                            <p><strong>Objetivo:</strong> Apresentar os aspectos formais e as características gerais dos gêneros carta, carta circular e mensagem eletrônica.</p>
 
-                            <!-- CAIXA DE TEXTO SAIBA-MAIS -->
-                            <section class="container">
-                                <div class="accordion ">
-                                    <section id="content">
-                                        <div class="caixaprincipal" id="tituloSaibaMais">
-                                            <div class="div_teste">
-                                                <div><i class="fa-solid fa-plus"></i> SAIBA MAIS </div>
+                            <!-- subtopico -->
+                            <h3 class="Subtopico fw-bolder">Carta</h3>
+                            <!-- subtopico -->
 
-                                                <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-                                            </div>
-                                        </div> <!--caixa Principal-->
-                                        <div class="accordion-content" id="saibamais">
-                                            <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75">
-                                                        Passe o mouse acima
-                                                    </strong></strong></p>
-                                            <p class="txt-caixasecundaria"><strong>O que é a redação oficial?</strong>
-                                            </p>
-                                            <p class="txt-caixasecundaria">A redação oficial é aquela que trata da
-                                                maneira pela qual o Poder Público redige <strong>atos
-                                                    normativos</strong> e comunicações oficiais.</p>
-                                            <!--caixa secundaria-->
-                                        </div>
-                                    </section>
-                            </section>
-                            <!-- FIM DA CAIXA SAIBA MAIS  -->
+                            <!-- Subsubtopico  -->
+                            <h4 class="subsubtopico fw-bolder">Conceito</h4>
+                            <!-- fim do subsubtopico  -->
 
-                            <div class="container">
-                                <div class="accordion accordion-flush" id="AccordionFase01">
-                                    <div class="text-center aviso">
-                                        <h6 class="fs-6 SmallCaps badge bg-warning"><i class="bi bi-lightbulb-fill"></i> Clique
-                                        nos títulos abaixo para mais informações</h6>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="Item01">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                                <strong>Atos Normativos</strong>
-                                            </button>
-                                        </h2>
-                                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="Item01" data-bs-parent="#AccordionFase01">
-                                            <div class="accordion-body">
-                                                <div class="row">
-                                                    <p>Podemos citar como exemplos de ato normativo:</p> 
+                            <p class="scrool">Na Redação Oficial;</p>
 
-                                                    <ul class="list">
-                                                        <li><i class="fa fa-arrow-right text-success"></i> A Lei Ordinária e a Lei Complementar;</li>
-                                                        <li><i class="fa fa-arrow-right text-success"></i> A Medida Provisória;</li>
-                                                        <li><i class="fa fa-arrow-right text-success"></i> O Decreto;</li>
-                                                        <li><i class="fa fa-arrow-right text-success"></i> A Portaria;</li>
-                                                        <li><i class="fa fa-arrow-right text-success"></i> entre outros.</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                            <!-- Citação com borda verde (esquerda) -->
+                            <div class="bd-callout bd-callout-success m-3">
+
+                            <!-- blockquote do bootstrap -->
+                            <figure>
+                            <blockquote class="blockquote">
+                                <p> "[...] a carta é o instrumento usual da correspondência social do administrador e altas chefias, vale dizer, sendo empregada nas comunicações de caráter social decorrentes do cargo ou função públicos."</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                                <cite title="Source Title">- BELTRÃO, 1981, p. 45</cite>
+                            </figcaption>
+                            </figure>
+                            </div>
+                            <!-- Citação com borda verde (esquerda) -->
+
+                            <!-- Citação com borda verde (esquerda) -->
+                            <div class="bd-callout bd-callout-success m-3">
+
+                            <!-- blockquote do bootstrap -->
+                            <figure>
+                            <blockquote class="blockquote">
+                                <p> "[...] equivale à carta social na correspondência de caráter social, sendo utilizada no serviço público para: fazer pedidos e convites; manifestar agradecimentos; ou transmitir informações."</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                                <cite title="Source Title">- Flôres (2007, p. 53)</cite>
+                            </figcaption>
+                            </figure>
+                            </div>
+                            <!-- Citação com borda verde (esquerda) -->
+
+                            <!-- FIM DA CAIXA IMPORTANTE -->
+                            <p class="scrool">Essa autora sublinha ainda que os cidadãos comuns (particulares, pessoa física) farão uso da carta social para se comunicarem com autoridades públicas, pois eles não podem expedir ofícios ou memorandos.</p>
+
+                            <!-- Subsubtopico  -->
+                            <h4 class="subsubtopico fw-bolder">Componentes da carta</h4>
+                            <!-- fim do subsubtopico  -->
+
+                            <p class="scrool">Veja, a seguir, os principais elementos que compõem a carta.</p>
+
+                            <!-- Subsubtopico  -->
+                            <h4 class="subsubtopico fw-bolder">Timbre</h4>                     
+                            <!-- fim do subsubtopico  -->
+
+                            <p class="scrool">Por causa do uso social da carta, <strong>o timbre pode ser apresentado de maneira completa ou não</strong>, o que vai determinar o uso de um modo ou de outro são elementos como: o motivo da carta, o destinatário, o conteúdo.</p>
+
+                            <p class="scrool">Para as empresas se comunicarem com os órgãos públicos por meio de carta, esta necessariamente deve conter o timbre completo e seguir o Padrão Ofício, já estudados. O timbre completo deve apresentar: logomarca institucional, razão social da empresa, endereço para correspondência, telefone para contato, e endereço do correio eletrônico.</p>
+
+                            <p class="scrool">Ressalta-se que, nas cartas de cunho social modernas, há uma tendência de “suavização” do timbre, ou seja, de utilização do “timbre incompleto”, geralmente conhecido por cabeçalho. O “timbre incompleto” é aquele que apresenta somente a logomarca do órgão e a indicação do setor, como no exemplo a seguir.</p>
+
+                            <!-- IMAGEM NO SITE  -->
+
+                            <div class="text-center img-01">
+                                <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 5</strong></p>
+                                <div class="zoom">
+                                <a href="..." data-bs-toggle="modal" data-bs-target="#Imagem5">
+                                    <img src="imgs/topico02/Figura05.png" alt="Imagem que remete a organização" id="img-1">
+                                </a>
+                                </div>
+                                <p class="FonteFigura FonteMenor text-secondary"></p>
+                            </div>
+
+                            <!-- Imagem - MODAL-->
+                            <div class="modal fade text-center" id="Imagem5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                <div class="modal-content w-75">
+                                    <img class="img-fluid" src="imgs/topico02/Figura05.png" alt="Alt da imagem fica aqui">
+                                </div>
+                                <div class="modal-footer w-75 bg-light justify-content-center">
+                                    <p class="text-secondary"><strong>Figura 5</strong></p>
+                                </div>
                                 </div>
                             </div>
-                            <p>De acordo com Flôres (2002, p. 11), os textos produzidos no âmbito da Redação Oficial
-                                podem ser agrupados em duas categorias:</p>
+                            <!-- Imagem - End-->
+
+                            <p class="scrool">Mesmo para o uso do cabeçalho, o que deve ser observado é um preceito constante nas normas de elaboração da correspondência oficial: a uniformidade. Se forem enviadas cartas com timbres/cabeçalhos diferentes, é sinal de que falta uniformidade.</p>
+
+                            <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
+                            <section class="container">
+                                <div class="accordion ">
+                                <section id="content">
+                                    <div class="caixaprincipal" id="titulofiqueatento">
+                                    <div class="div_teste">
+                                        <div><i class="fa-solid fa-person-circle-exclamation"></i> FIQUE ATENTO </div>
+                                        <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                                    </div>
+                                    </div> <!--caixa Principal-->
+                                    <div class="accordion-content" id="fiqueatento"><!--caixa secundaria-->
+                                    <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong></p>
+                                    <p class="txt-caixasecundaria">O responsável pela elaboração da carta não deve alterar o timbre ou o cabeçalho que já é utilizado no órgão público. É uma prática comum as instituições públicas contratarem profissionais especializados na elaboração de timbres (completos ou não) e de outros tipos de identificações visuais, para serem utilizadas em diversas situações, tais como: o tamanho do papel, o veículo de comunicação e os recursos disponíveis para a impressão. As considerações sobre o timbre em cartas valem também para os documentos e outros tipos de correspondências, com exceção de e-mail, quando este não possui textos anexos. É importante estar atento à padronização adotada pelo local em que você atuar.</p>
+                                    </div>
+                                </section>
+                            </section>
+                            <!-- FIM DA CAIXA FIQUE ATENTO -->
+
+                            <!-- Subsubtopico  -->
+                            <h4 class="subsubtopico fw-bolder">Número</h4>                     
+                            <!-- fim do subsubtopico  -->
+
+                            <p class="scrool">Obedece à ordem de feitura dentro do ano, podendo ou não ser precedido pela espécie da correspondência, como nos exemplos:</p>
+
+                            <!--CAIXA DE TEXTO EXEMPLO-->
+                            <section class="container">
+                                <div class="accordion ">
+                                <section id="content">
+                                    <div class="caixaprincipal" id="tituloexemplo">
+                                    <div class="div_teste">
+                                        <div><i class="fa-regular fa-pen-to-square"></i></i> EXEMPLO </div>
+                                        <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                                    </div>
+                                    </div> <!--caixa Principal-->
+                                    <div class="accordion-content" id="exemplo"><!--caixa secundaria-->
+                                    <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong></p>
+                                    <p class="txt-caixasecundaria">Carta 26/PGI ou Ct. 26 – PGI;
+                                    <p>
+                                    <p class="txt-caixasecundaria">PGI – 26 ou PGI/26.</p>
+                                    </div>
+                                </section>
+                            </section>
+                            <!-- FIM DA CAIXA EXEMPLO-->
+
+                            <!-- Subsubtopico  -->
+                            <h4 class="subsubtopico fw-bolder">Local e Data em Que Foi Assinado</h4>                     
+                            <!-- fim do subsubtopico  -->
+                            <p class="scrool">Deve ser escrito por extenso:</p>
+
+                            <!-- lista  -->
 
                             <ul class="list">
-                                <li><i class="fa fa-cube text-success"></i> Correspondências; e</li>
-                                <li><i class="fa fa-cube text-success"></i> Documentos;</li>
-                             </ul>
+                                <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i class="fa fa-dot-circle text-success"></i>
+                                Sem o zero à esquerda do número do dia;
+                                </li>
+                                <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i class="fa fa-dot-circle text-success"></i>
+                                Com o nome do mês em letra minúscula;
+                                </li>
+                                <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i class="fa fa-dot-circle text-success"></i>
+                                Sem ponto nem espaço no número do 2008; e
+                                </li>
+                                <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i class="fa fa-dot-circle text-success"></i>
+                                Terminar com ponto final.
+                                </li>
+                            </ul>
 
-                            <p>Entretanto, apesar dessa segmentação, as correspondências e os documentos oficiais estão intimamente relacionados: Primeiro, porque esses textos possuem características em comum. Segundo, porque é de praxe que o encaminhamento de documentos seja acompanhado de correspondência.</p>
-
-                            <p>Veja os tipos mais comuns de cada categoria:</p>
-                            <div class="bd-callout bd-callout-warning">
-                                <p>
-                                <strong>Correspondências</strong>
-                                <hr>
-                                <p>
-                                Ofício, memorando, requerimento, carta, fax, mensagem eletrônica, telegrama, entre outros.
-                                </p>
-
-                            </div>
-
-                            <div class="bd-callout bd-callout-info">
-                                <p>
-                                <strong>Documentos</strong>
-                                <hr>
-                                <p>
-                                Ata, certidão, portaria, procuração, relatório, instrução normativa, decreto etc.
-                                </p>
-
-                            </div>
-                            <!-- CAIXA DE TEXTO IMPORTANTE -->
+                            <!--CAIXA DE TEXTO EXEMPLO-->
                             <section class="container">
-                                <div class="accordion">
+                                <div class="accordion ">
                                 <section id="content">
-                                    <div class="caixaprincipal" id="tituloimportante">
+                                    <div class="caixaprincipal" id="tituloexemplo">
                                     <div class="div_teste">
-                                        <div><i class="bi bi-exclamation-circle"></i> IMPORTANTE </div>
+                                        <div><i class="fa-regular fa-pen-to-square"></i></i> EXEMPLO </div>
                                         <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
                                     </div>
                                     </div> <!--caixa Principal-->
-                                    <div class="accordion-content" id="importante">
+                                    <div class="accordion-content" id="exemplo"><!--caixa secundaria-->
                                     <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong></p>
-                                    <p class="txt-caixasecundaria">Esses textos existem normas estabelecidas por decretos, portarias e instruções normativas federais que regulamentam sua feitura.</p> <!--caixa secundaria-->
+                                    <p class="txt-caixasecundaria">Florianópolis, 9 de maio de 2008.
+                                    <p>
                                     </div>
                                 </section>
+                            </section>
+                            <!-- FIM DA CAIXA EXEMPLO-->
+                            <!-- fim da lista  -->
+
+                            <!-- Subsubtopico  -->
+                            <h4 class="subsubtopico fw-bolder">Destinatário</h4>                     
+                            <!-- fim do subsubtopico  -->
+
+                            <p class="scrool">A inscrição do destinatário pode ou não ser seguida de seu endereço. Coloca-se o endereço na carta preferencialmente se for utilizado o envelope janelado. Veja os exemplos de preenchimento de destinatário no Quadro 02:</p>
+
+                        <!-- IMAGEM NO SITE  -->
+
+                            <div class="text-center img-01">
+                                <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Quadro 02</strong></p>
+                                <div class="zoom">
+                                <a href="..." data-bs-toggle="modal" data-bs-target="#Quadro02">
+                                    <img src="imgs/topico02/Quadro02.png" alt="Imagem que remete a organização" id="img-1">
+                                </a>
                                 </div>
-                            </section>
-                            <!-- FIM DA CAIXA IMPORTANTE -->
-
-                            <p>Além disso, como ressalta Flôres (2007, p. 26),</p>
-
-                            <div class="bd-callout bd-callout-success">
-                                <p>"O que eleva um documento à categoria de texto oficial é a finalidade para a qual foi gerado: tratar de assunto(s) do interesse do(s) signatário(s) (Aquele que assina ou subscreve um documento) ou do que ele(s) representa(m) junto ao(s) órgão(s) público(s)."</p>
-                                <p class="text-end">- ENAP, 2006</p>
+                                <p class="FonteFigura FonteMenor text-secondary"></p>
                             </div>
 
-                            <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
-                            <section class="container">
-                                <div class="accordion ">
-                                <section id="content">
-                                    <div class="caixaprincipal" id="titulofiqueatento">
-                                    <div class="div_teste">
-                                        <div><i class="fa-solid fa-person-circle-exclamation"></i> FIQUE ATENTO </div>
-                                        <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-                                    </div>
-                                    </div> <!--caixa Principal-->
-                                    <div class="accordion-content" id="fiqueatento"><!--caixa secundaria-->
-                                    <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong></p>
-                                    <p class="txt-caixasecundaria">Desde a publicação da Instrução Normativa n. 4, de 6 de março de 1992, pela extinta Secretaria da Administração Federal, que torna obrigatória a observância das regras constantes no Manual de Redação da Presidência da República, busca-se uniformizar e padronizar a redação dos textos oficiais por meio da atualização da linguagem neles empregada e da modernização das diversas modalidades de expedientes.</p>
-                                    </div>
-                                </section>
-                            </section>
-                            <!-- FIM DA CAIXA FIQUE ATENTO -->
-                            <p>Conforme Flôres,</p>
-
-                            <div class="bd-callout bd-callout-success">
-                                <p>"A Redação Oficial é utilizada pela Administração Direta, composta pelos serviços integrados na estrutura administrativa da Presidência da República e dos Ministérios, e pela Administração Indireta, composta por entidades dotadas de personalidade jurídica própria, como autarquias, empresas públicas, sociedades de economia mista e órgãos que compõem os poderes Legislativo e Judiciário."</p>
-                                <p class="text-end">- FLÔRES, 2007, p. 27</p>
-                            </div>
-
-                            <!-- CAIXA DE TEXTO CURIOSIDADE -->
-                            <section class="container">
-                                <div class="accordion ">
-                                <section id="content">
-                                    <div class="caixaprincipal" id="tituloCuriosidade">
-                                    <div class="div_teste">
-                                        <div><i class="fa-solid fa-question"></i> CURIOSIDADE </div>
-
-                                        <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-                                    </div>
-                                    </div> <!--caixa Principal-->
-                                    <div class="accordion-content" id="Curiosidade">
-                                    <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75">
-                                            Passe o mouse acima
-                                        </strong></strong></p>
-                                    <p class="txt-caixasecundaria">A uniformidade e a padronização de correspondências relacionadas aos atos administrativos oficiais não eram características amplamente praticadas até pouco tempo atrás. Data de 11 de janeiro de 1991 o Decreto n. 100.000, em que o Presidente da República autorizou a criação de uma comissão para rever, atualizar, uniformizar e simplificar as normas de redação de atos e comunicações oficiais. Em outubro do mesmo ano, essa comissão apresentou a primeira edição do Manual de Redação da Presidência da República, que tinha o objetivo de racionalizar e padronizar os textos oficiais.
-                                    </p>
-                                    <p class="txt-caixasecundaria">Dez anos depois, fez-se necessário revisar e atualizar o texto do Manual, principalmente para adaptá-lo à evolução legislativa brasileira e para adequá-lo às formas de comunicação oficial e aos avanços da informática. Essa segunda edição revisada e atual do Manual está disponível, desde 2002, no sítio da Casa Civil. Conheça mais sobre o Manual, em: <a target="blank" href="https://www4.planalto.gov.br/centrodeestudos/assuntos/manual-de-redacao-da-presidencia-da-republica/manual-de-redacao.pdf">http://www4.planalto.gov.br/manual-de-redacao.pdf</a></p><!--caixa secundaria-->
-                                    </div>
-                                </section>
-                            </section>
-                            <!-- FIM DA CAIXA DE TEXTO CURIOSIDADE -->
-                            <a id="item1"></a>
-                            <!-- subtopico -->
-                            <h3 class="Subtopico fw-bolder">Características da Redação Oficial</h3>
-                            <!-- subtopico -->
-
-                            <p>Em nosso dia a dia, cada situação comunicativa específica possui sua linguagem característica, apropriada, que é determinada em função dos interlocutores envolvidos e do grau de formalidade exigido.</p>
-
-                            <p>Exemplo, temos uma linguagem possível para bate-papos informais na internet, popularmente chamada de internetês, outra para bilhetinhos familiares ou cartas que expressam nossos sentimentos, e assim por diante.</p>
-
-                            <p>Em situações comunicativas informais, espontâneas, costumamos fazer uso de uma fala/escrita descontraída, natural: usamos a linguagem popular ou coloquial que não necessariamente segue as regras gramaticais da norma-padrão da linguagem, mas sua própria norma, caracterizada pelos conhecidos vícios de linguagem, por aspectos considerados como desvios da gramática tradicional (gramática normativa), pelo uso de expressões idiomáticas, expressões grupais (gírias) ou expressões/construções de baixo prestígio social.</p>
-
-                            <!-- CAIXA DE TEXTO SAIBA-MAIS -->
-                            <section class="container">
-                                <div class="accordion ">
-                                <section id="content">
-                                    <div class="caixaprincipal" id="tituloSaibaMais">
-                                    <div class="div_teste">
-                                        <div><i class="fa-solid fa-plus"></i> SAIBA MAIS </div>
-
-                                        <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-                                    </div>
-                                    </div> <!--caixa Principal-->
-                                    <div class="accordion-content" id="saibamais">
-                                    <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75"> Passe o mouse acima
-                                        </strong></strong></p>
-                                    <p class="txt-caixasecundaria"><strong>No caso da redação oficial, qual modalidade de linguagem escrita deve ser utilizada?</strong></p>
-                                    <p class="txt-caixasecundaria">Na redação oficial, a linguagem a ser utilizada é a formal. Essa modalidade de linguagem faz parte de um padrão linguístico bastante valorizado na esfera profissional, além de ser a modalidade de linguagem recomendada pelo Manual de Redação da Presidência da República para atos e comunicações oficiais.</p>
-                                    
-                                    <p class="txt-caixasecundaria"><strong>Mas, afinal, o que caracteriza a linguagem formal e por que ela é necessária?</strong></p>
-                                    <p class="txt-caixasecundaria">O primeiro aspecto da linguagem formal está relacionado à norma padrão da língua. A variedade formal da linguagem é regida pela adequação às regras da gramática normativa, pois, desse modo, garante-se rigor quanto à forma. Em contrapartida, evitam-se textos obscuros, ambíguos, incompreensíveis por questões estruturais. Dentre as inadequações mais habituais nos textos, costumam ser frequentes aquelas relacionadas a questões de concordância e regência (nominal e verbal), de colocação de termos na oração (colocação pronominal), de acentuação, de pontuação e de uso equivocado de palavras com proximidades gráficas, mas com grandes distâncias semânticas (O significado das palavras, por oposição à sua forma) (a exemplo do caso de iminente/ eminente, ratificar/retificar, entre outras).</p><!--caixa secundaria-->
-                                    </div>
-                                </section>
-                            </section>
-                            <!-- FIM DA CAIXA SAIBA MAIS  -->
-
-                            <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
-                            <section class="container">
-                                <div class="accordion ">
-                                <section id="content">
-                                    <div class="caixaprincipal" id="titulofiqueatento">
-                                    <div class="div_teste">
-                                        <div><i class="fa-solid fa-person-circle-exclamation"></i> FIQUE ATENTO </div>
-                                        <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-                                    </div>
-                                    </div> <!--caixa Principal-->
-                                    <div class="accordion-content" id="fiqueatento"><!--caixa secundaria-->
-                                    <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong></p>
-                                    <p class="txt-caixasecundaria">Em casos de dúvidas gramaticais, é importante consultar uma gramática normativa atualizada. Dentre outras obras, indicamos as seguintes:</p>
-
-                                    <p class="txt-caixasecundaria"><i class="fa fa-book text-success"></i> <strong>Nova Gramática do Português Contemporâneo</strong>, de Celso Cunha e Luis F. Lindley Cintra – Editora Lexikon;</p>
-
-                                    <p class="txt-caixasecundaria"><i class="fa fa-book text-success"></i> <strong>Aprender e Praticar Gramática</strong>, de Mauro Ferreira – Editora FDT. O autor expõe os conceitos gramaticais e os exemplifica amplamente. Cada capítulo é seguido de um esquema-síntese do conteúdo estudado e de uma bateria de exercícios; e</p>
-
-                                    <p class="txt-caixasecundaria"><i class="fa fa-book text-success"></i> <strong>Moderna Gramática Portuguesa</strong>, de Evanildo Bechara. O autor apresenta uma sequência de estudo, didática e bem exemplificada, em que a análise prescritiva é abordada de maneira crítica.</p>
-                                </ul></p>
-                                    </div>
-                                </section>
-                            </section>
-                            <!-- FIM DA CAIXA FIQUE ATENTO -->
-                            <p>O segundo aspecto, relacionado ao emprego da linguagem formal, diz respeito à interdição quanto ao emprego de gírias e de expressões regionais, idiomáticas ou populares nos textos oficiais. Além de serem próprias de situações informais de comunicação, essas expressões podem dificultar ou mesmo inviabilizar a compreensão de uma mensagem. São marcas características da comunicação em ambientes familiares e formadoras de um discurso estritamente grupal ou pessoal, não oficial.</p>
-                        
-                            <p>A redação oficial exige que o usuário contemple o critério da uniformidade de sentido. Imagine como seria de difícil utilização para um órgão público um Regulamento que possibilitasse, para cada leitor, uma interpretação distinta das normas nele contidas. Além disso, se esse Regulamento apresentasse em seu texto gírias ou expressões regionais, poderia impossibilitar a compreensão para pessoas que as desconhecessem, enquanto estaria dando privilégio de compreensão aos integrantes do grupo usuário de tais expressões. Isso não estaria de acordo com o critério da uniformidade, que prevê condições de igualdade de leitura e compreensão do texto, sem distinções grupais.</p>
-
-                            <p>Vale lembrar outra questão vocabular que pode prejudicar a compreensão do texto, já que compromete a clareza das informações e restringe a compreensão a determinados grupos: o uso de arcaísmos. Assim como as gírias e as expressões regionais, palavras em desuso são obstáculos para o entendimento das ideias veiculadas. Como são palavras ou expressões obsoletas, seu significado pode ser tão enigmático quanto o de uma gíria desconhecida.</p>
-
-                            <p>A impessoalidade é o terceiro aspecto que caracteriza a linguagem formal. A preferência pela impessoalização de textos formais (técnicos, empresariais, oficiais) decorre, primeiramente, da necessidade de a ênfase dos documentos recair sobre as informações que eles contêm e não sobre quem os elabora; depois, de não se desejar marcar o autor dos textos como “dono” das ideias que estão sendo comunicadas por ele, o que poderia dar a elas pouco crédito, já que seriam avaliadas de uma posição pessoal e individualizada, e não institucional e coletiva, como deve ser.</p>
-
-                            <p>Isso quer dizer que os documentos e as comunicações oficiais sempre são feitos em nome do Serviço Público, apesar de serem assinados, por exemplo, pela chefia de determinada Seção; além disso, o assunto tratado é, invariavelmente, de interesse público.</p>
-
-                            <p>Proceder à impessoalização não é tarefa complexa. Há formas simples e usuais que servem para minimizar as marcas de pessoa do texto sem, contudo, apagar as marcas de autoria. Dentre as formas de se atingir a impessoalidade, estão:</p>
-
-                            <!-- lista ordenada  -->
-                            <ol type="a" class="scrool" id="txt_final">
-                                <li>A preferência às estruturas passivas, com apagamento de agente:</li>
-
-                                <!--CAIXA DE TEXTO EXEMPLO-->
-                                <section class="container">
-                                    <div class="accordion ">
-                                    <section id="content">
-                                        <div class="caixaprincipal" id="tituloexemplo">
-                                        <div class="div_teste">
-                                            <div><i class="fa-regular fa-pen-to-square"></i></i> EXEMPLO </div>
-                                            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-                                        </div>
-                                        </div> <!--caixa Principal-->
-                                        <div class="accordion-content" id="exemplo"><!--caixa secundaria-->
-                                        <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong></p>
-                                        <p class="txt-caixasecundaria">a. O Edital de Abertura n. 47/2007 foi publicado na última semana.
-                                        <p>
-                                        <p class="txt-caixasecundaria">b. Os gabaritos de provas foram divulgados.</p>
-                                        </div>
-                                    </section>
-                                </section>
-                                <!-- FIM DA CAIXA EXEMPLO-->
-                                <li>O uso da primeira pessoa do plural com referenciação genérica:</li>
-
-                                    <!--CAIXA DE TEXTO EXEMPLO-->
-                                    <section class="container">
-                                    <div class="accordion ">
-                                    <section id="content">
-                                        <div class="caixaprincipal" id="tituloexemplo">
-                                        <div class="div_teste">
-                                            <div><i class="fa-regular fa-pen-to-square"></i></i> EXEMPLO </div>
-                                            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-                                        </div>
-                                        </div> <!--caixa Principal-->
-                                        <div class="accordion-content" id="exemplo"><!--caixa secundaria-->
-                                        <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong></p>
-                                        <p class="txt-caixasecundaria">a. Publicamos o Edital de Abertura n. 47/2007 na última semana.
-                                        <p>
-                                        <p class="txt-caixasecundaria">b. Divulgamos os gabaritos de provas.</p>
-                                        </div>
-                                    </section>
-                                </section>
-                                <!-- FIM DA CAIXA EXEMPLO-->
-                                <li>O uso de construções com verbo + se:</li>
-
-                                    <!--CAIXA DE TEXTO EXEMPLO-->
-                                    <section class="container">
-                                    <div class="accordion ">
-                                    <section id="content">
-                                        <div class="caixaprincipal" id="tituloexemplo">
-                                        <div class="div_teste">
-                                            <div><i class="fa-regular fa-pen-to-square"></i></i> EXEMPLO </div>
-                                            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-                                        </div>
-                                        </div> <!--caixa Principal-->
-                                        <div class="accordion-content" id="exemplo"><!--caixa secundaria-->
-                                        <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong></p>
-                                        <p class="txt-caixasecundaria">a. Publicou-se o Edital de Abertura n. 47/2007 na última semana.
-                                        <p>
-                                        <p class="txt-caixasecundaria">b. Divulgaram-se os gabaritos de provas
-                                        <p>
-                                        </div>
-                                    </section>
-                                </section>
-                                <!-- FIM DA CAIXA EXEMPLO-->
-                            </ol>
-                            <!-- fim da lista ordenada  -->
-                            <p>O quarto e último aspecto da linguagem formal está relacionado ao conjunto: clareza, concisão e objetividade. Imagine um Ofício da Presidência ou um Decreto escrito de forma obscura e ambígua, dificultando, assim, sua compreensão. É algo inaceitável, não é mesmo? A transparência do sentido e a inteligibilidade (Qualidade do que pode ser compreendido) dos documentos e correspondências oficiais são requisitos do próprio Estado de Direito (Estado regulado por uma constituição que prevê uma pluralidade de orgãos dotados de competência distintas explicitamente determinada), por isso é inadmissível que um texto legal ou oficial não seja entendido de forma clara pelos cidadãos. A publicidade do texto implica, portanto, necessariamente, a clareza e a concisão.</p>
-
-                            <!-- CAIXA DE TEXTO IMPORTANTE -->
-                            <section class="container">
-                                <div class="accordion">
-                                <section id="content">
-                                    <div class="caixaprincipal" id="tituloimportante">
-                                    <div class="div_teste">
-                                        <div><i class="bi bi-exclamation-circle"></i> IMPORTANTE </div>
-                                        <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-                                    </div>
-                                    </div> <!--caixa Principal-->
-                                    <div class="accordion-content" id="importante">
-                                    <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong></p>
-                                    <p class="txt-caixasecundaria">O uso da linguagem formal no âmbito do serviço público é uma exigência que advém da finalidade dos textos oficiais: sempre estão relacionados, em última instância, ao governo dos cidadãos. Dito de outro modo, esses textos estabelecem regras para a conduta dos cidadãos ou regulam o funcionamento de órgãos públicos que atendem à sociedade, direta ou indiretamente. Logo, o caráter público dos textos oficiais e sua finalidade determinam o emprego do nível culto da linguagem.</p> <!--caixa secundaria-->
-                                    </div>
-                                </section>
+                            <!-- Imagem - MODAL-->
+                            <div class="modal fade text-center" id="Quadro02" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                <div class="modal-content w-75">
+                                    <img class="img-fluid" src="imgs/topico02/Quadro02.png" alt="Alt da imagem fica aqui">
                                 </div>
+                                <div class="modal-footer w-75 bg-light justify-content-center">
+                                    <p class="text-secondary"><strong>Quadro 02:</strong> Exemplos de destinatários de carta</p>
+                                </div>
+                                </div>
+                            </div>
+                            <!-- Imagem - End-->
+
+                            <p class="scrool">Note que:</p>
+
+                            <ul class="list">
+                                <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i class="fa fa-dot-circle text-success"></i>
+                                Um dos exemplos não tem o “À” ou “Ao”, pois são facultativos;
+                                </li>
+                                <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i class="fa fa-dot-circle text-success"></i>
+                                Para destinar a carta a uma pessoa específica, usa-se “At.” (abreviatura de atenção). As formas “Att.” (abreviação da palavra inglesa attention) e A/C (aos cuidados) não são utilizadas.
+                            </li>
+                            </ul>
+
+                            <!-- Subsubtopico  -->
+                            <h4 class="subsubtopico fw-bolder">Assunto e Referência</h4>                     
+                            <!-- fim do subsubtopico  -->
+                            <p class="scrool">O assunto, como você viu no estudo do ofício, é o resumo, que deve trazer em pouquíssimas palavras uma prévia satisfatória do conteúdo da correspondência.</p>
+
+                            <p class="scrool">A referência, por sua vez, é a indicação do número do documento mencionado na carta. Veja um exemplo de assunto e de referência:</p>
+
+                           <!--CAIXA DE TEXTO EXEMPLO-->
+                           <section class="container">
+                                <div class="accordion ">
+                                <section id="content">
+                                    <div class="caixaprincipal" id="tituloexemplo">
+                                    <div class="div_teste">
+                                        <div><i class="fa-regular fa-pen-to-square"></i></i> EXEMPLO </div>
+                                        <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                                    </div>
+                                    </div> <!--caixa Principal-->
+                                    <div class="accordion-content" id="exemplo"><!--caixa secundaria-->
+                                    <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong></p>
+                                    <p class="txt-caixasecundaria"><strong>Assunto: </strong>Aquisição de impressoras.
+                                    <p>
+                                    <p class="txt-caixasecundaria"><strong>Referência: </strong>Sua Carta-Proposta n. 2.
+                                    <p>
+                                    </div>
+                                </section>
                             </section>
-                            <!-- FIM DA CAIXA IMPORTANTE -->
-                            <p>É importante ressaltar, entretanto, que o uso dos elementos que conferem formalidade à escrita oficial não deve ser confundido com a utilização de uma suposta forma específica de linguagem denominada vulgarmente de burocratês. Deve-se evitar este tipo de linguagem, caracterizada pelo uso de expressões feitas, clichês do jargão burocrático e de formas arcaicas ou complexas de construção de frases.</p>
+                            <!-- FIM DA CAIXA EXEMPLO-->                            
+
+                            <!-- Subsubtopico  -->
+                            <h4 class="subsubtopico fw-bolder">Vocativo</h4>                     
+                            <!-- fim do subsubtopico  -->
+
+                            <p class="scrool">Diferentemente do vocativo em ofícios, na carta podem ser utilizados os vocativos “Prezado(s)”, “Estimado(s)”, “Caro(s)”, seguidos do tratamento “Senhor”, “Senhora”, do nome do receptor ou do cargo. Após o vocativo, usa-se vírgula. Um cuidado a ser tomado é aplicar a concordância em gênero e número, como nos exemplos do Quadro 3.</p>
+                            <!-- Subsubtopico  -->
+                            <h4 class="subsubtopico fw-bolder">Texto</h4>                     
+                            <!-- fim do subsubtopico  -->
+
+                            <!-- Subsubtopico  -->
+                            <h4 class="subsubtopico fw-bolder">Nome e Cargo/Função do Signatário</h4>                     
+                            <!-- fim do subsubtopico  -->
+
+                            <!-- Subsubtopico  -->
+                            <h4 class="subsubtopico fw-bolder">Anexos</h4>                     
+                            <!-- fim do subsubtopico  -->
                             <!-- Botões de navegação -->
                             <div class="text-center">
                                 <a href="topico01.php" class="btn btn-outline-success" role="button"
